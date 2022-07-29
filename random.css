@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  /* display: flex; */
+}
+
+#customers {
+  padding: 10px 15px;
+}
+
+#title {
+  padding: 10px 0;
+}
+
+#btn_random {
+  text-align: center;
+  padding: 30px;
+}
+
+#result_random {
+  padding: 20px;
+  display: none;
+}
+
+.result_random_item {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+#result_name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#btn_random > button,
+#btn_reset > button {
+  padding: 10px 25px;
+  background-color: rgb(2, 163, 2);
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
